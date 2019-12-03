@@ -18,6 +18,12 @@ with Reader("filepath") as replay:
         print(elim)
 ```
 
+build one file cli version:
+
+```bash
+    pyinstaller cli.py -F
+```
+
 ## :warning: More info
 Please see [Fortnite Replay Parser](https://github.com/Shiqan/FortniteReplayReader) and [Fortnite Replay Decompressor](https://github.com/Shiqan/FortniteReplayDecompressor) for more details.
 
